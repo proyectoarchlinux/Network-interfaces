@@ -9,7 +9,7 @@
 `auto eth0`
 `iface eth0 inet dhcp`
 
-**Donde `eth0` es la interfaz de red, para ver tu interfaz de red escribe en la terminal `sudo ifconfig` o `iwconfig`.**
+**Donde `eth0` es la interfaz de red, para ver tu interfaz de red escribe en la terminal `ls /sys/class/net`, `sudo ifconfig` o `iwconfig`.**
 
 3. En el caso de una red Ethernet (Cableada) Estática se configura.
 ~~~
