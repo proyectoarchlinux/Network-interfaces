@@ -13,19 +13,13 @@
 
 3. En el caso de una red Ethernet (Cableada) Estática se configura.
 
-`auto eth0`  
-
-`iface eth0 inet static`  
-
-`address 192.168.1.145` (IP)  
-
-`netmask 255.255.255.0` (Máscara de red)  
-
-`network 192.168.1.0` (Red)  
-
-`broadcast 192.168.1.255`  
-
-`gateway 192.168.1.1` (Puerta de enlace)
+`auto eth0
+iface eth0 inet static
+address 192.168.1.145 (IP)
+netmask 255.255.255.0 (Máscara de red)
+network 192.168.1.0 (Red)
+broadcast 192.168.1.255
+gateway 192.168.1.1` (Puerta de enlace)
 
 4. En el caso de una red WiFi (Inalámbrica) DHCP (Dinámica).
 
