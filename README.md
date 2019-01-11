@@ -12,6 +12,7 @@
 ### Donde `eth0` es la interfaz de red, para ver tu interfaz de red escribe en la terminal `sudo ifconfig` o `iwconfig`.
 
 3. En el caso de una red Ethernet (Cableada) Estática se configura.
+~~~
 
 `auto eth0
 iface eth0 inet static
@@ -20,6 +21,8 @@ netmask 255.255.255.0 (Máscara de red)
 network 192.168.1.0 (Red)
 broadcast 192.168.1.255
 gateway 192.168.1.1` (Puerta de enlace)
+
+~~~
 
 4. En el caso de una red WiFi (Inalámbrica) DHCP (Dinámica).
 
