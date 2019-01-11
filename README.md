@@ -44,3 +44,5 @@ network 192.168.1.0 (Red)
 broadcast 192.168.1.255
 gateway 192.168.1.1 (Puerta de enlace)
 ~~~
+
+**NOTA** No hace falta que pongas entre paréntesis lo que es cada cosa, ya que a lo mejor suceden errores.
